@@ -1,5 +1,5 @@
 ---
-title: Welcome to CB-Essay
+title: Welcome
 order: 1
 part: Overview and Examples
 ---
