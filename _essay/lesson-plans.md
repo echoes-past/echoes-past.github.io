@@ -44,16 +44,3 @@ Students review the contents of the unit and demonstrate what they have learned 
 {% endcapture %}
 {% include feature/card.html header="Lesson 5: One Place, Many Meanings" text=lesson5 %}
 
-## Readings referenced in the lesson plans
-
-The following background readings are linked from within the lesson plans:
-
-<div class="d-flex flex-wrap gap-2 mb-4">
-{% include feature/button.html text="Thinking Like Historians (Lesson 1)" link="/items/caves160.html" color="outline-secondary" %}
-{% include feature/button.html text="Local and National Connections (Lesson 1)" link="/items/caves161.html" color="outline-secondary" %}
-{% include feature/button.html text="Teaching History from an Indigenous Perspective (Lesson 1)" link="/items/caves162.html" color="outline-secondary" %}
-{% include feature/button.html text="Sahaptian Place Names Atlas excerpt (Lesson 2)" link="/items/caves163.html" color="outline-secondary" %}
-{% include feature/button.html text="Utilla excerpt (Lesson 3)" link="/items/caves164.html" color="outline-secondary" %}
-{% include feature/button.html text="Echo excerpt (Lesson 4)" link="/items/caves165.html" color="outline-secondary" %}
-{% include feature/button.html text="Foldables (Lesson 5)" link="/items/caves166.html" color="outline-secondary" %}
-</div>
