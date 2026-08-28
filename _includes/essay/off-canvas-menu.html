@@ -1,5 +1,5 @@
 {% unless site.data.theme.show-contents-nav %}
-<button class="essay-nav-btn essay-nav-btn--menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open navigation menu">
+<button class="essay-nav-btn essay-nav-btn--menu{% if page.layout == 'home-essay'%} d-none{%endif%}" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open navigation menu">
     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
     </svg>
@@ -19,10 +19,10 @@
                     {%- assign actual_essays = site.essay | where_exp: "item", "item.title and item.order" -%}
                     {%- assign essay_count = actual_essays.size -%}
                     {% unless site.data.theme.show-contents-nav or essay_count == 1 %}
-                    <li class="nav-item">
+                    <li class="nav-item d-none">
                         <a class="nav-link{% if page.url == actual_essays[0].url %} active{% endif %}" href="{{ actual_essays[0].url | relative_url }}">Read</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown d-none" >
                         {%- assign essayStubs = site.essay | map: 'url' -%}
                         <a class="nav-link dropdown-toggle{% if essayStubs contains page.url %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contents</a>
                         <div class="dropdown-menu">

@@ -1,11 +1,9 @@
 display_name,stub,dropdown_parent
-About,/about.html,
-Search,/search/,
-Print & PDF,/print/,
-Collection,
-Browse,/browse.html,Collection
-Subjects,/subjects.html,Collection
-Locations,/locations.html,Collection
-Map,/map.html,Collection
-Timeline,/timeline.html,Collection
-Data,/data.html,Collection
+Glossary,/glossary.html,
+Unit Overview,/for-educators.html
+Lesson Plans,/lesson-plans.html
+Slides,/slides.html
+Printables,/printables.html
+Resources,/resources.html
+Explore More!,/explore-more.html,
+About the Project,/about.html

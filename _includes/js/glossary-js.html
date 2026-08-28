@@ -1,0 +1,104 @@
+{% comment %}
+
+    Glossary JavaScript
+
+    Activates every {% include feature/glossary.html %} on the page:
+    - the "Filter by lesson" drop down, which shows only entries tagged for that lesson
+    - the pronunciation buttons, which play one audio file at a time
+
+    Include once per page, after the glossary includes.
+
+{%- endcomment -%}
+<script>
+(function () {
+  "use strict";
+
+  /* ---- pronunciation playback -------------------------------------------- */
+  var current = null;
+  var currentBtn = null;
+
+  function stopCurrent() {
+    if (current) {
+      current.pause();
+      current.currentTime = 0;
+    }
+    if (currentBtn) {
+      currentBtn.classList.remove("is-playing");
+      currentBtn = null;
+    }
+  }
+
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest("[data-glossary-audio]");
+    if (!btn) return;
+    var src = btn.getAttribute("data-glossary-audio");
+    var wasPlaying = btn === currentBtn;
+    stopCurrent();
+    if (wasPlaying) return; // clicking the playing button stops it
+
+    current = new Audio(src);
+    currentBtn = btn;
+    btn.classList.add("is-playing");
+    current.addEventListener("ended", stopCurrent);
+    current.addEventListener("error", function () {
+      btn.classList.remove("is-playing");
+      btn.classList.add("is-missing");
+      btn.setAttribute("title", "Sorry — this recording could not be played.");
+      currentBtn = null;
+    });
+    current.play().catch(function () {
+      btn.classList.remove("is-playing");
+      currentBtn = null;
+    });
+  });
+
+  /* ---- lesson filter ------------------------------------------------------ */
+  document.querySelectorAll("[data-glossary]").forEach(function (glossary) {
+    var select = glossary.querySelector("[data-glossary-filter]");
+    if (!select) return;
+    var entries = glossary.querySelectorAll("[data-glossary-entry]");
+    var count = glossary.querySelector("[data-glossary-count]");
+    var empty = glossary.querySelector("[data-glossary-empty]");
+
+    function apply() {
+      var lesson = select.value;
+      var shown = 0;
+      entries.forEach(function (entry) {
+        var tags = (entry.getAttribute("data-lessons") || "").split(/\s+/);
+        var match = lesson === "all" || tags.indexOf(lesson) !== -1;
+        entry.classList.toggle("d-none", !match);
+        if (match) shown++;
+      });
+      if (count) {
+        count.textContent = lesson === "all"
+          ? "Showing all " + shown + " words."
+          : "Showing " + shown + (shown === 1 ? " word" : " words") + " for Lesson " + lesson + ".";
+      }
+      if (empty) empty.classList.toggle("d-none", shown !== 0);
+    }
+
+    select.addEventListener("change", apply);
+    apply();
+  });
+
+  /* ---- cross-references --------------------------------------------------- */
+  /* A link to a word hidden by the current filter would jump nowhere, so reset
+     that list's filter to "All lessons" before following the link. */
+  document.addEventListener("click", function (e) {
+    var link = e.target.closest('a[href^="#"]');
+    if (!link) return;
+    var id = decodeURIComponent(link.getAttribute("href").slice(1));
+    if (!id) return;
+    var target = document.getElementById(id);
+    if (!target || !target.hasAttribute("data-glossary-entry")) return;
+    var glossary = target.closest("[data-glossary]");
+    var select = glossary && glossary.querySelector("[data-glossary-filter]");
+    if (select && select.value !== "all") {
+      select.value = "all";
+      select.dispatchEvent(new Event("change"));
+    }
+    target.classList.add("is-targeted");
+    setTimeout(function () { target.classList.remove("is-targeted"); }, 2000);
+  });
+})();
+</script>

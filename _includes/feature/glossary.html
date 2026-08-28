@@ -1,0 +1,73 @@
+{% comment %}
+
+    Interactive Glossary
+
+    Renders one alphabetical word list from "_data/glossary.csv", with an optional
+    lesson filter and a click-to-play pronunciation button for entries that have audio.
+
+    E.G. --> {% include feature/glossary.html list="umatilla" %}
+    E.G. --> {% include feature/glossary.html list="english" filter=false %}
+
+    Options:
+    - "list" = which list to render, matching the "glossary_list" column in
+      _data/glossary.csv, i.e. "umatilla" or "english" (required)
+    - "id" = id for the wrapper element, used to scope the lesson filter.
+      Defaults to "glossary-" plus the list name (optional)
+    - "filter" = give false to omit the lesson filter drop down (optional, default true)
+    - "lessons" = number of lessons represented by the lesson_1 ... lesson_n columns
+      in the CSV (optional, default 4)
+
+    Requires {% include js/glossary-js.html %} once per page to activate the
+    filter and the pronunciation buttons.
+
+{%- endcomment -%}
+{%- assign gloss_id = include.id | default: 'glossary-' | append: include.list -%}
+{%- assign lesson_count = include.lessons | default: 4 | plus: 0 -%}
+{%- assign entries = site.data.glossary | where: 'glossary_list', include.list | sort_natural: 'id' -%}
+
+<div class="glossary" id="{{ gloss_id }}" data-glossary>
+
+    {%- unless include.filter == false or include.filter == 'false' -%}
+    <div class="glossary-controls row g-2 align-items-end mb-4">
+        <div class="col-sm-auto">
+            <label class="form-label mb-1" for="{{ gloss_id }}-filter">Filter by lesson</label>
+            <select class="form-select" id="{{ gloss_id }}-filter" data-glossary-filter>
+                <option value="all" selected>All lessons</option>
+                {%- for n in (1..lesson_count) -%}
+                <option value="{{ n }}">Lesson {{ n }}</option>
+                {%- endfor -%}
+            </select>
+        </div>
+        <div class="col-sm">
+            <p class="glossary-count mb-2" data-glossary-count aria-live="polite">Showing all {{ entries.size }} words.</p>
+        </div>
+    </div>
+    {%- endunless -%}
+
+    <dl class="glossary-list">
+        {%- for entry in entries -%}
+        {%- capture lesson_tags -%}
+        {%- for n in (1..lesson_count) -%}
+        {%- capture col -%}lesson_{{ n }}{%- endcapture -%}
+        {%- if entry[col] == '1' %}{{ n }} {% endif -%}
+        {%- endfor -%}
+        {%- endcapture -%}
+        <div class="glossary-entry" id="{{ entry.id }}" data-glossary-entry data-lessons="{{ lesson_tags | strip }}">
+            <dt class="glossary-term">
+                {%- if entry.audio -%}
+                <button type="button" class="glossary-audio-btn" data-glossary-audio="{{ entry.audio | relative_url }}" aria-label="Play pronunciation of {{ entry.word | escape }}">
+                    {%- include feature/icon.html icon="volume-up-fill" label=false -%}
+                </button>
+                {%- endif -%}
+                <span class="glossary-word">{{ entry.word }}</span>
+            </dt>
+            <dd class="glossary-definition">
+                {{- entry.definition | markdownify | remove: '<p>' | remove: '</p>' -}}
+            </dd>
+        </div>
+        {%- endfor -%}
+    </dl>
+
+    <p class="glossary-empty d-none" data-glossary-empty>No words in this list are tagged for that lesson.</p>
+
+</div>

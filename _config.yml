@@ -38,11 +38,11 @@ defaults:
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 
+url: https://echoes-past.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: 
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
+source-code: https://github.com/echoes-past/echoes-past.github.io
 
 ##########
 # SITE SETTINGS
@@ -51,7 +51,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # These fields control what appears on your homepage cover/title page
 #
 # title: Main title displayed prominently on the cover page (required)
-title: CB-Essay
+title: Echoes of the Past
 #
 # author: Appears as "by [Author Name]" beneath the title on cover page (optional)
 # - If provided, this displays instead of the tagline
@@ -65,27 +65,27 @@ author:
 # - Use for descriptive subtitle or project tagline
 # - Can also use HTML for multi-line display:
 #   tagline: "A Digital Edition<br>Published 2024"
-tagline: Essay in the front, CollectionBuilder in the back
+tagline: Bringing local history to life in your classroom!
 #
 # METADATA FIELDS (for search engines and social media):
 #
 # description: Longer description for search engines and social sharing (recommended)
 # - Appears in meta tags and search results
 # - Keep around 160 characters max for best display in search results
-description: "CB-Essay combines CollectionBuilder-CSV with essay and exhibit capabilities, allowing you to create multi-modal narratives that incorporate items from your digital collection directly into your writing and pages."
+description: "A supplementary 4th-grade curriculum about a place known by many names — Tk̓úpa, the Utilla Indian Agency, Fort Henrietta, and Echo, Oregon."
 #
 # keywords: Short list of subjects separated by semicolons, for rich markup metadata
-keywords: digital humanities; multimodal essays; lib-static
+keywords: local history; Oregon; Umatilla; CTUIR; archaeology; 4th grade curriculum
 #
 # exhibit-creator: Creator of the digital collection for meta tags (your name or GitHub username)
-exhibit-creator: dcnb
+exhibit-creator: Meghan Caves
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-compoundobjects-metadata 
+metadata: echoes-past
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -123,7 +123,7 @@ organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
 # provide a relative path in this repository or full url 
 lib-assets: /assets/lib
 # ignore stuff
-exclude: [docs/, Rakefile, rakelib/, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md]
+exclude: [docs/, Rakefile, rakelib/, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, AGENTS.md, CLAUDE.md, HUMANS.md, Product.md, gutenberg-extraction.py, .impeccable.md, .upstream-review-pinned]
 # compress CSS output
 sass:
   style: compressed

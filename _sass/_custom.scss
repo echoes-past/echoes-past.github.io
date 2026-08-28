@@ -3,4 +3,102 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+/* ---------------------------------------------------------------------------
+   Interactive glossary
+   Used by _includes/feature/glossary.html + _includes/js/glossary-js.html
+   on /glossary.html
+   --------------------------------------------------------------------------- */
 
+.glossary-controls {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 0.75rem 0;
+  background: var(--cb-surface-100, #fff);
+  border-bottom: 1px solid var(--cb-border-200, #dee2e6);
+}
+
+.glossary-count {
+  color: var(--cb-text-600, #6c757d);
+  font-size: 0.9rem;
+}
+
+.glossary-list {
+  margin-bottom: 0;
+}
+
+.glossary-entry {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--cb-border-200, #dee2e6);
+  scroll-margin-top: 6rem; // clear the sticky filter bar when jumped to
+}
+
+.glossary-term {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.15rem;
+  font-weight: 600;
+}
+
+.glossary-word {
+  font-size: 1.1em;
+}
+
+.glossary-definition {
+  margin-bottom: 0;
+  margin-left: 2.25rem; // align under the word, past the speaker button
+}
+
+/* Pronunciation button ------------------------------------------------------ */
+
+.glossary-audio-btn {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  color: var(--cb-cta-bg, #003a55);
+  background: transparent;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  .bi {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--cb-cta-text, #fff);
+    background: var(--cb-cta-bg, #003a55);
+  }
+
+  &.is-playing {
+    color: var(--cb-cta-text, #fff);
+    background: var(--cb-cta-bg, #003a55);
+  }
+
+  &.is-missing {
+    color: var(--cb-text-600, #6c757d);
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+
+/* Highlight an entry arrived at via a cross-reference link */
+.glossary-entry.is-targeted,
+.glossary-entry:target {
+  background: var(--cb-surface-200, #f1f3f5);
+  box-shadow: -0.5rem 0 0 var(--cb-cta-bg, #003a55);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glossary-audio-btn {
+    transition: none;
+  }
+}
