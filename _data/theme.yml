@@ -105,9 +105,10 @@ aside-display-mode: auto
 
 base-font-size: 1.2em            # 1.2em – 1.4em recommended for long-form reading
 
-base-font-family: "'Noto Sans', Georgia, serif"
-display-font-family: "'Noto Sans', Georgia, serif"
-font-cdn: "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+base-font-family: theme           # 'theme' | 'Georgia' | "'YourFont', Georgia, serif"
+display-font-family: theme        # 'theme' | 'Georgia' | "'YourFont', Georgia, serif"
+
+font-cdn:                         # only set if base/display-font-family is custom
 
 # Legacy color overrides — uncomment to override the theme's colors.
 # In most cases, leave these commented out and let `color-theme:` below
