@@ -65,9 +65,9 @@ color-theme: idaho
 # The system extracts the hue and generates a matching palette.
 # Set navbar-style: dark for a dark themed navbar (white text).
 #
-# color-theme: custom
-# custom-color: "#8B4513"
-# navbar-style: dark    # dark (default) | light
+color-theme: custom
+custom-color: "#457A00"
+navbar-style: dark    # dark (default) | light
 #
 # Want more themes? Use _prompts/add-theme.md and work with your favorite chatbot to create your own theme. 
 
