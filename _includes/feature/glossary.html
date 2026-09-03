@@ -30,7 +30,7 @@
     {%- unless include.filter == false or include.filter == 'false' -%}
     <div class="glossary-controls row g-2 align-items-end mb-4">
         <div class="col-sm-auto">
-            <label class="form-label mb-1" for="{{ gloss_id }}-filter">Filter by lesson</label>
+            <label class="form-label mb-1" for="{{ gloss_id }}-filter">Filter <b>{{ include.title }}</b> by lesson</label>
             <select class="form-select" id="{{ gloss_id }}-filter" data-glossary-filter>
                 <option value="all" selected>All lessons</option>
                 {%- for n in (1..lesson_count) -%}

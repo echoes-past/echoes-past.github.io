@@ -3,9 +3,9 @@ atayma,atáyma,"barter, sell",Sahaptian-018,1,1,1,0,/objects/audio/Sahaptian-018
 ataymatawas,ataymat̓áwas,"store, village, town, city, trading post",Sahaptian-127,0,1,1,1,/objects/audio/Sahaptian-127.mp3,umatilla
 axsaxs,áx̣šax̣š,"dentalium or tusk shell, *Dentalium pretiosum*",,0,1,0,0,,umatilla
 calamat,čalámat,"pipe, ceremonial pipe",Sahaptian-130,0,1,1,0,/objects/audio/Sahaptian-130.mp3,umatilla
-cuus,čúuš,water; all [káˀuyit](#káˀuyit) meals begin and end with a drink of this,Sahaptian-042,1,1,0,1,/objects/audio/Sahaptian-042.mp3,umatilla
+cuus,čúuš,water; all [káˀuyit](#kauyit) meals begin and end with a drink of this,Sahaptian-042,1,1,0,1,/objects/audio/Sahaptian-042.mp3,umatilla
 iciskiin,ičiškíin,"""in this language..."" or ""in the Indian language...""",Sahaptian-068,0,0,0,0,/objects/audio/Sahaptian-068.mp3,umatilla
-imatalam,ímatalam,"the place at the mouth of [ímatalam wana](#ímatalam wana) or the Umatilla River, a permanent camp now a city called Umatilla",Sahaptian-060,0,0,0,0,/objects/audio/Sahaptian-060.mp3,umatilla
+imatalam,ímatalam,"the place at the mouth of [ímatalam wana](#imatalam-wana) or the Umatilla River, a permanent camp now a city called Umatilla",Sahaptian-060,0,0,0,0,/objects/audio/Sahaptian-060.mp3,umatilla
 imatalam-wana,ímatalam wana,"Umatilla River, literally translates as “rocky river”",Sahaptian-020,0,1,0,1,/objects/audio/Sahaptian-020.mp3,umatilla
 imatalamlaami-sinwit,imatalamłaamí sɨ́nwit,Umatilla language,Sahaptian-067,0,0,0,0,/objects/audio/Sahaptian-067.mp3,umatilla
 imatalamlama,ímatalamłáma,"Umatilla People, people of the Umatilla River",Sahaptian-021,0,1,1,1,/objects/audio/Sahaptian-021.mp3,umatilla
@@ -16,7 +16,7 @@ kpit,k̓pɨ́t,bead,,0,1,0,0,,umatilla
 kpitki-anisa,k̓pɨ́tki aníša,she is doing beadwork,,0,1,0,0,,umatilla
 kpitna,k̓pɨ́tna,beads,,0,1,0,0,,umatilla
 kusi,k̓úsi,horse,Sahaptian-096,1,1,1,1,/objects/audio/Sahaptian-096.mp3,umatilla
-lamitu,lamitú,domestic sheep; also [šíip](#šíip) ,Sahaptian-100,0,0,0,1,/objects/audio/Sahaptian-100.mp3,umatilla
+lamitu,lamitú,domestic sheep; also [šíip](#siip) ,Sahaptian-100,0,0,0,1,/objects/audio/Sahaptian-100.mp3,umatilla
 lawaalaytla,lawaalaytłá,"volcano, like Mount Mazama",Sahaptian-013,1,0,0,0,/objects/audio/Sahaptian-013.mp3,umatilla
 lawlaw,lawláw,fur,Sahaptian-110,1,0,0,0,/objects/audio/Sahaptian-110.mp3,umatilla
 miimi,míimi,"long ago, already",Sahaptian-007,1,0,0,0,/objects/audio/Sahaptian-007.mp3,umatilla
@@ -31,12 +31,12 @@ niit,níit,"cottage, building",Sahaptian-126,0,0,0,0,/objects/audio/Sahaptian-12
 niit-aniyi-tkunmi,níit aníyi tk̓unmí,tule lodge,Sahaptian-080,0,1,1,0,/objects/audio/Sahaptian-080.mp3,umatilla
 niixwi,níix̣wi,"do well, do good, make friends, or be at peace",Sahaptian-148,0,0,0,0,/objects/audio/Sahaptian-148.mp3,umatilla
 nisawtas,nisáwtas,"abandoned camp, could be an archaeological site",Sahaptian-008,1,0,0,0,/objects/audio/Sahaptian-008.mp3,umatilla
-nusux,núsux,salmon; represents all aquatic life at the table for [káˀuyit](#káˀuyit),Sahaptian-047,0,1,0,1,/objects/audio/Sahaptian-047.mp3,umatilla
+nusux,núsux,salmon; represents all aquatic life at the table for [káˀuyit](#kauyit),Sahaptian-047,0,1,0,1,/objects/audio/Sahaptian-047.mp3,umatilla
 papatiwiya,pápatiwiya,they fought one another,Sahaptian-143,0,0,0,0,/objects/audio/Sahaptian-143.mp3,umatilla
-pawanaqit,páwanaq̓it,treaty between nations; see also [páˀiniix̣ʷat](#páˀiniix̣ʷat) or [pawiyalɨxssímwit](#pawiyalɨxssímwit),Sahaptian-019,1,0,1,1,/objects/audio/Sahaptian-019.mp3,umatilla
+pawanaqit,páwanaq̓it,treaty between nations; see also [páˀiniix̣ʷat](#painiixwat) or [pawiyalɨxssímwit](#pawiyalixssimwit),Sahaptian-019,1,0,1,1,/objects/audio/Sahaptian-019.mp3,umatilla
 pawiyalixssimit,páwiyalɨxssimit,"gathering as one, a coming together",Sahaptian-152,0,0,0,1,/objects/audio/Sahaptian-152.mp3,umatilla
-pawiyalixssimwit,pawiyalɨxssímwit,treaty between nations; also [páwanaq̓it](#páwanaq̓it) or [páˀiniix̣ʷat](#páˀiniix̣ʷat),Sahaptian-032,1,0,1,1,/objects/audio/Sahaptian-032.mp3,umatilla
-painiixwat,páˀiniix̣ʷat,treaty between nations; also [páwanaq̓it](#páwanaq̓it) or [pawiyalɨxssímwit](#pawiyalɨxssímwit),Sahaptian-031,1,0,1,1,/objects/audio/Sahaptian-031.mp3,umatilla
+pawiyalixssimwit,pawiyalɨxssímwit,treaty between nations; also [páwanaq̓it](#pawanaqit) or [páˀiniix̣ʷat](#painiixwat),Sahaptian-032,1,0,1,1,/objects/audio/Sahaptian-032.mp3,umatilla
+painiixwat,páˀiniix̣ʷat,treaty between nations; also [páwanaq̓it](#pawanaqit) or [pawiyalɨxssímwit](#pawiyalixssimwit),Sahaptian-031,1,0,1,1,/objects/audio/Sahaptian-031.mp3,umatilla
 qalamqalam,qalámqalam,"lodgepole pine, *Pinus contorta*",,0,0,0,0,,umatilla
 qixli,q̓ɨx̣lí,tule mat,Sahaptian-081,0,1,1,0,/objects/audio/Sahaptian-081.mp3,umatilla
 qwsqwis,q̓ʷšq̓ʷɨ́š,coffee,Sahaptian-033,0,1,1,0,/objects/audio/Sahaptian-033.mp3,umatilla
@@ -44,9 +44,9 @@ sapawaakmuyk,šapáwaakmuyk,"to cause a horse to buck, have a rodeo",Sahaptian-1
 sapawaakmuykt,šapáwaakmuykt,"rodeo, round-up",Sahaptian-105,0,0,0,0,/objects/audio/Sahaptian-105.mp3,umatilla
 sapawaakpawas,sapawaak̓páwas,button,Sahaptian-034,0,1,1,0,/objects/audio/Sahaptian-034.mp3,umatilla
 siil,síil,"material, cloth",Sahaptian-132,0,1,1,0,/objects/audio/Sahaptian-132.mp3,umatilla
-siip,šíip,domestic sheep; also [lamitú](#lamitú),Sahaptian-101,0,0,0,1,/objects/audio/Sahaptian-101.mp3,umatilla
+siip,šíip,domestic sheep; also [lamitú](#lamitu),Sahaptian-101,0,0,0,1,/objects/audio/Sahaptian-101.mp3,umatilla
 siipmi-lawlaw,šiipmí lawláw,wool,Sahaptian-102,0,0,0,0,/objects/audio/Sahaptian-102.mp3,umatilla
-siwaala,siwáala,freshwater clam or mussel; also [x̣ɨštú](#x̣ɨštú) or [xɨstú](#xɨstú) ,,0,1,0,0,,umatilla
+siwaala,siwáala,freshwater clam or mussel; also [x̣ɨštú](#xistu-2) or [xɨstú](#xistu) ,,0,1,0,0,,umatilla
 sinwit,sɨ́nwit,"speaking, talking, words, language ",Sahaptian-024,1,1,1,1,/objects/audio/Sahaptian-024.mp3,umatilla
 spaytit,spáytit,"sprout, shoot, offspring, or child",Sahaptian-077,0,0,0,0,/objects/audio/Sahaptian-077.mp3,umatilla
 sukwa,šúkʷa,"know, learn",Sahaptian-010,1,0,0,0,/objects/audio/Sahaptian-010.mp3,umatilla
@@ -61,13 +61,13 @@ tamanwit,tamánwit,"the belief that all things of the earth were placed by the 
 tanan,tanán,"(Indigenous) person, Indian",Sahaptian-025,1,1,1,1,/objects/audio/Sahaptian-025.mp3,umatilla
 tanan-sinwit,tanán sɨ́nwit,Indian or Indigenouus language,Sahaptian-001,0,0,0,0,/objects/audio/Sahaptian-001.mp3,umatilla
 tanan-tkwatat,tanán tkʷátat,Indian or Indigenous food,Sahaptian-088,0,1,0,1,/objects/audio/Sahaptian-088.mp3,umatilla
-tananawit,tananáwit,the Indian or Indigenous way; also [tanánwit](#tanánwit),Sahaptian-069,1,1,0,1,/objects/audio/Sahaptian-069.mp3,umatilla
+tananawit,tananáwit,the Indian or Indigenous way; also [tanánwit](#tananwit),Sahaptian-069,1,1,0,1,/objects/audio/Sahaptian-069.mp3,umatilla
 tananma,tanánma,"(Indigenous) people, Indians",Sahaptian-004,1,1,1,1,/objects/audio/Sahaptian-004.mp3,umatilla
-tananwit,tanánwit,the Indian or Indigenous way; also [tananáwit](#tananáwit),Sahaptian-070,1,1,0,1,/objects/audio/Sahaptian-070.mp3,umatilla
+tananwit,tanánwit,the Indian or Indigenous way; also [tananáwit](#tananawit),Sahaptian-070,1,1,0,1,/objects/audio/Sahaptian-070.mp3,umatilla
 tanins,tanínš,arrowhead,Sahaptian-038,0,1,1,0,/objects/audio/Sahaptian-038.mp3,umatilla
 tawya,táwya,"dwell, stay, or live",Sahaptian-146,0,1,0,1,/objects/audio/Sahaptian-146.mp3,umatilla
-tawyanaykt,táwyanaykt,"village, camp, dwelling; also [tawyanikáwas](#tawyanikáwas)",Sahaptian-083,0,1,1,0,/objects/audio/Sahaptian-083.mp3,umatilla
-tawyanikawas,tawyanikáwas,"village, camp, dwelling; also [táwyanaykt](#táwyanaykt)",Sahaptian-084,0,1,1,0,/objects/audio/Sahaptian-084.mp3,umatilla
+tawyanaykt,táwyanaykt,"village, camp, dwelling; also [tawyanikáwas](#tawyanikawas)",Sahaptian-083,0,1,1,0,/objects/audio/Sahaptian-083.mp3,umatilla
+tawyanikawas,tawyanikáwas,"village, camp, dwelling; also [táwyanaykt](#tawyanaykt)",Sahaptian-084,0,1,1,0,/objects/audio/Sahaptian-084.mp3,umatilla
 tiicam,tiičám,"earth, ground, property, place",Sahaptian-123,1,0,0,1,/objects/audio/Sahaptian-123.mp3,umatilla
 timani-tiicam,tímani tiičám,"Indian reservation, place reserved for indigenous descendants by the ancestors who negotiated the treaty with the United States Government",Sahaptian-054,0,0,1,1,/objects/audio/Sahaptian-054.mp3,umatilla
 tiwi,tíwi,fight,Sahaptian-142,0,0,0,0,/objects/audio/Sahaptian-142.mp3,umatilla
@@ -76,7 +76,7 @@ tkupa,tk̓úpa,"tule place, place where tules grow",Sahaptian-079,0,1,1,1,/obje
 tkuwi,tk̓úwi,get or gather tules,,0,1,0,0,,umatilla
 tkwata,tkʷáta,to eat,Sahaptian-086,0,0,1,1,/objects/audio/Sahaptian-086.mp3,umatilla
 tkwatat,tkʷátat,food,Sahaptian-087,0,0,1,1,/objects/audio/Sahaptian-087.mp3,umatilla
-tkwaynp,tkʷáynp,go hunting; also [wɨsaláyti](#wɨsaláyti),Sahaptian-112,0,0,0,0,/objects/audio/Sahaptian-112.mp3,umatilla
+tkwaynp,tkʷáynp,go hunting; also [wɨsaláyti](#wisalayti),Sahaptian-112,0,0,0,0,/objects/audio/Sahaptian-112.mp3,umatilla
 tkwaynpla,tkʷaynpłá,"hunter, man",Sahaptian-111,0,0,0,0,/objects/audio/Sahaptian-111.mp3,umatilla
 tmaanit,tmaanít,"picked plant foods, plant foods gathered/harvested by picking",,0,1,0,1,,umatilla
 tmayn,tmáyn,"respect, show respect",Sahaptian-009,1,0,0,0,/objects/audio/Sahaptian-009.mp3,umatilla
@@ -95,16 +95,16 @@ wasatawasi,wasat̓áwasi,to saddle,Sahaptian-098,0,0,0,0,/objects/audio/Sahaptia
 watkwna,wátkʷna,"charge, rush, go forth, fo off to war",Sahaptian-144,0,0,1,0,/objects/audio/Sahaptian-144.mp3,umatilla
 weyiiletpu,weyíiletpu,"Cayuse people (who are from the place known as Walla Walla), also spelled ""waiilatpu"" in the cayuse dialect",Sahaptian-023,0,1,1,1,/objects/audio/Sahaptian-023.mp3,umatilla
 wilalik,wilalík,jackrabbit,Sahaptian-109,0,0,0,0,/objects/audio/Sahaptian-109.mp3,umatilla
-wiwnu,wiwnu,huckleberry; represents all [tmaanít](#tmaanít) at the table for [káˀuyit](#káˀuyit),Sahaptian-095,0,1,0,1,/objects/audio/Sahaptian-095.mp3,umatilla
+wiwnu,wiwnu,huckleberry; represents all [tmaanít](#tmaanit) at the table for [káˀuyit](#kauyit),Sahaptian-095,0,1,0,1,/objects/audio/Sahaptian-095.mp3,umatilla
 wiyanaykuk,wiyánayk̓uk,"gather foods, medicines, and materials **along the way**",Sahaptian-118,0,1,1,0,/objects/audio/Sahaptian-118.mp3,umatilla
-wisalayti,wɨsaláyti,go hunting; also [tkʷáynp](#tkʷáynp),Sahaptian-114,0,0,0,0,/objects/audio/Sahaptian-114.mp3,umatilla
+wisalayti,wɨsaláyti,go hunting; also [tkʷáynp](#tkwaynp),Sahaptian-114,0,0,0,0,/objects/audio/Sahaptian-114.mp3,umatilla
 wisayctpama,wɨšayčtpamá,"village, place to stay",Sahaptian-082,0,1,1,0,/objects/audio/Sahaptian-082.mp3,umatilla
-xaws,x̣áwš,cous root; represents all [x̣nít](#x̣nít) at the table for [káˀuyit](#káˀuyit),Sahaptian-094,0,1,0,1,/objects/audio/Sahaptian-094.mp3,umatilla
-xistu,xɨstú,freshwater clam or mussel; also [x̣ɨštú](#x̣ɨštú) or [siwáala](#siwáala),,0,1,0,0,,umatilla
-xistu-2,x̣ɨštú,freshwater clam or mussel; also [xɨstú](#xɨstú) or [siwáala](#siwáala),,0,1,0,0,,umatilla
+xaws,x̣áwš,cous root; represents all [x̣nít](#xnit) at the table for [káˀuyit](#kauyit),Sahaptian-094,0,1,0,1,/objects/audio/Sahaptian-094.mp3,umatilla
+xistu,xɨstú,freshwater clam or mussel; also [x̣ɨštú](#xistu-2) or [siwáala](#siwaala),,0,1,0,0,,umatilla
+xistu-2,x̣ɨštú,freshwater clam or mussel; also [xɨstú](#xistu) or [siwáala](#siwaala),,0,1,0,0,,umatilla
 xnit,x̣nít,"dug plant foods, plant foods gathered/harvested by digging",,0,1,0,1,,umatilla
 xpxip,x̣px̣ɨ́p,cottonwood tree,Sahaptian-108,0,0,1,0,/objects/audio/Sahaptian-108.mp3,umatilla
-yaamas,yáamaš,deer; represents all big game at the table for [káˀuyit](#káˀuyit),Sahaptian-057,0,1,0,1,/objects/audio/Sahaptian-057.mp3,umatilla
+yaamas,yáamaš,deer; represents all big game at the table for [káˀuyit](#kauyit),Sahaptian-057,0,1,0,1,/objects/audio/Sahaptian-057.mp3,umatilla
 yamuxlayk,yámuxlayk,"flood out, demolish by flood",Sahaptian-058,1,0,0,1,/objects/audio/Sahaptian-058.mp3,umatilla
 agriculture,agriculture,"the practice of growing crops and raising livestock for food, fiber, and other products",,0,0,0,1,,english
 archaeological-site,archaeological site,a place where many important artifacts that are related to each other are located,,1,0,1,1,,english
@@ -122,7 +122,7 @@ floodplain-restoration,floodplain restoration,the process of actively returning 
 fort,fort,a military building or buildings surrounded by a strong wall designed to be defended from attack and serve as a place to gather and organize military actions,,0,0,1,0,,english
 grid,grid,network of lines that cross each other to form a series of squares (2D) or cubes (3D),,1,0,1,0,,english
 history,history,"a study of the past through the process of investigating, analyzing, and interpreting events in relation to one another",,1,1,1,1,,english
-indian-agency,Indian Agency,"a historical government headquarters for managing land, trade, and relations with specific tribes, see [tmiyutpamá níit](#tmiyutpamá níit}",,0,0,1,0,,english
+indian-agency,Indian Agency,"a historical government headquarters for managing land, trade, and relations with specific tribes, see [tmiyutpamá níit](#tmiyutpama-niit)",,0,0,1,0,,english
 indian-agent,Indian Agent,a government-appointed person in charge of an Indian Agency,,0,0,1,0,,english
 land-privatization,land privatization,"the process of transferring land from public, communal, or customary control to private ownership; also connects to laws about keeping people out of private land",,0,0,0,1,,english
 monoculture,monoculture,the practice of growing a single crop or single species over a large area,,0,0,0,1,,english
@@ -135,6 +135,6 @@ seasonal-round,seasonal round,a cyclical pattern of movement that Indigenous peo
 secondary-source,secondary source,"a book, article, or other source that provides information about an object of study but does not constitute direct, first-hand evidence",,0,1,1,0,,english
 tactics,tactics,strategies to achieve a goal,,0,0,1,0,,english
 territory,territory,a defined region that has been claimed by a country’s government without having it be a formal part of the country; for example: The Oregon Territory,,0,1,1,0,,english
-tule-plants,tule plants,hardstem bulrushes that grow in freshwater marshes across much of North America; see [tk̓ú](#tk̓ú},,0,1,0,0,,english
+tule-plants,tule plants,hardstem bulrushes that grow in freshwater marshes across much of North America; see [tk̓ú](#tku),,0,1,0,0,,english
 urbanization,urbanization,"the development of urban areas such as towns and cities with municipal government and public roads, utilities, and services (regardless of the number of people)",,0,0,0,1,,english
 utilla,Utilla,"a version of the word “Umatilla,” used by the U.S. Government when defining indigenous groups of the region and establishing the local Indian agency",,0,0,1,0,,english
