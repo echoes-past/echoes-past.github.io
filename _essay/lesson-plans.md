@@ -5,8 +5,6 @@ text-search: true
 order: 4
 ---
 
-# Lesson Plans
-
 The unit consists of five place-based, hands-on lessons delivered in seven or more blocks of time. Click a lesson title to open its full lesson plan in Google Docs.
 
 {% capture lesson1 %}

@@ -5,8 +5,6 @@ permalink: /printables.html
 text-search: true
 ---
 
-# Printables
-
 The kit includes all of the materials you will need for lesson delivery **except for the Reflection Booklet**, which you will need to make copies of to hand out to your class.
 
 There are two versions of the Reflection Booklet to help make the lesson content more accessible to your students and provide opportunities for differentiation.

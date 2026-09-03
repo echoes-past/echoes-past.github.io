@@ -5,8 +5,6 @@ permalink: /slides.html
 text-search: true
 ---
 
-# Slideshows
-
 The following slideshows have been prepared as a structure for educators to guide students through each lesson. They include embedded video content that complements the activities as well as helpful information and delivery tips for educators in the notes section of the slides.
 
 {% include feature/alert.html text="Each **Make a copy** link below will prompt Google Slides to save a copy of the slideshow to your own Drive, ready to share to your Google Classroom. Use **Preview** if you just want to look through the deck first." color="info" %}

@@ -5,10 +5,6 @@ permalink: /for-educators.html
 text-search: true
 ---
 
-# For Educators
-
-## Unit Overview
-
 This curricular supplement is designed to provide teachers and students with immediate, local connections to history using stories about a place known throughout time by several names: Tk̓úpa, the Utilla Indian Agency, Fort Henrietta, and the City of Echo, Oregon. The lessons in this unit have been designed to fit the 2024 Oregon Social Science Standards for Grade 4, but could easily be scaled to Grades 3, 6, or 8 if desired.
 
 The content of this unit has been designed in alignment with [Átaw Ititámat (the Educational Values)](https://ctuir.org/departments/education/) outlined by The Confederated Tribes of the Umatilla Indian Reservation's Education Program and with consideration for the [College, Career, and Civic Life (C3) Framework](https://www.socialstudies.org/standards/c3) for Social Studies State Standards developed by the [National Council for the Social Studies](https://www.socialstudies.org/).

@@ -5,8 +5,6 @@ permalink: /explore-more.html
 text-search: true
 ---
 
-# Explore More!
-
 Do you want to learn more on your own? Here are some great places to start!
 
 If you want to learn more Umatilla words and phrases, check out the [CTUIR Language Program on YouTube](https://www.youtube.com/@ctuir_languageprogram) or the [Umatilla Language Online Dictionary](https://dictionary.ctuir.org).

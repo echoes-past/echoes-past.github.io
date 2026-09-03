@@ -5,8 +5,6 @@ permalink: /resources.html
 text-search: true
 ---
 
-# More Resources
-
 The following resources provide valuable context for this unit as well as opportunities to supplement existing local history curricula.
 
 [Essential Understandings of Native Americans in Oregon](https://www.oregon.gov/ode/students-and-family/equity/NativeAmericanEducation/Documents/SB13%20Curriculum/CLEAN%20Essential%20Understandings%20of%20Native%20Americans%20in%20Oregon%20June%202020%20(002).pdf) provides a necessary foundation for all teaching and learning about the Indigenous people of Oregon. This guiding document serves as the basis for all Tribal History / Shared History lessons and should also be applied as appropriate to this unit.
