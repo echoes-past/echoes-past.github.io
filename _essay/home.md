@@ -11,11 +11,6 @@ This teaching trunk is all about a place that has been known by many names over 
 
 {% include index/carousel.html filter-field="carousel" filter-value="yes" %}
 
-{% include essay/feature/image-gallery.html objectid="caves001;caves002;" %}
-{% include essay/feature/image-gallery.html objectid="caves003;caves004;" %}
-{% include essay/feature/image-gallery.html objectid="caves005;caves006;" %}
-
-
 
 We hope you enjoy learning about these echoes from the past!
 

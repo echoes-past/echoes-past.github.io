@@ -20,7 +20,7 @@ You can view either list in full alphabetical order, ***or*** you can use the dr
 
 ## Tanán Sɨ́nwit — Indigenous Vocabulary
 
-{% include feature/image.html objectid="caves016" width="25" %}
+{% include feature/image.html objectid="caves016" caption="Fred Hill Sr." %}
 
 Listen to a welcome message from Umatilla master speaker Ta̓wtalikš (Fred Hill Sr.):
 
