@@ -1,6 +1,6 @@
 ---
 layout: home-essay
 title: Home
-permalink: /
+permalink: /oldcover
 ---
 

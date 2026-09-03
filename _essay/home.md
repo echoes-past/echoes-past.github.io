@@ -1,12 +1,19 @@
 ---
 title: Welcome
 order: 1
+permalink: /index.html
 ---
+
+{% include feature/image.html objectid="assets/img/HomePage.png"%}
 
 This teaching trunk is all about a place that has been known by many names over the years… Tk̓úpa (tule place), the Utilla Indian Agency, Fort Henrietta, and Echo, Oregon. These names are all connected to specific times when this place has played an important role in indigenous, local, state, and even national history.
 
 
 {% include index/carousel.html filter-field="carousel" filter-value="yes" %}
+
+{% include essay/feature/image-gallery.html objectid="caves001;caves002;" %}
+{% include essay/feature/image-gallery.html objectid="caves003;caves004;" %}
+{% include essay/feature/image-gallery.html objectid="caves005;caves006;" %}
 
 
 

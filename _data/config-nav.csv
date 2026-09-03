@@ -1,9 +1,10 @@
 display_name,stub,dropdown_parent
 Glossary,/glossary.html,
-Unit Overview,/for-educators.html
-Lesson Plans,/lesson-plans.html
-Slides,/slides.html
-Printables,/printables.html
-Resources,/resources.html
+For Educators,
+Unit Overview,/for-educators.html,For Educators
+Lesson Plans,/lesson-plans.html,For Educators
+Slides,/slides.html,For Educators
+Printables,/printables.html,For Educators
+Resources,/resources.html,For Educators
 Explore More!,/explore-more.html,
 About the Project,/about.html
