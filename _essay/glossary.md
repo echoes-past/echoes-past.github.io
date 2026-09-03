@@ -10,7 +10,7 @@ text-search: true
 
 This page includes two alphabetical vocabulary lists for the Echoes of the Past unit and is intended as a resource for students, teachers, and parents.
 
-**[Tanán Sɨ́nwit](#tann-snwit-indigenous-vocabulary)** includes a list of words in the Umatilla language that convey key concepts and worldviews for the lessons. If you want to learn more words beyond what has been selected for the unit here, we highly recommend checking out the [Umatilla Language Online Dictionary](https://dictionary.ctuir.org)!
+**[Ičiškíin Sɨ́nwit](#tann-snwit-indigenous-vocabulary)** includes a list of words in the Umatilla language that convey key concepts and worldviews for the lessons. If you want to learn more words beyond what has been selected for the unit here, we highly recommend checking out the [Umatilla Language Online Dictionary](https://dictionary.ctuir.org)!
 
 The **[Vocabulary](#vocabulary)** section includes a list of selected English language words that may be unfamiliar and are used throughout the unit.
 
@@ -18,7 +18,7 @@ You can view either list in full alphabetical order, ***or*** you can use the dr
 
 {% include feature/alert.html text="Words with a **speaker button** next to them have a recording. Click the button to hear how the word is said." color="info" %}
 
-## Tanán Sɨ́nwit — Indigenous Vocabulary
+## Ičiškíin Sɨ́nwit — Indigenous Vocabulary
 
 {% include feature/image.html objectid="caves016" caption="Fred Hill Sr." %}
 
