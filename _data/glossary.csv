@@ -1,7 +1,7 @@
 id,word,definition,identifier,lesson_1,lesson_2,lesson_3,lesson_4,audio,glossary_list
 atayma,atáyma,"barter, sell",Sahaptian-018,1,1,1,0,/objects/audio/Sahaptian-018.mp3,umatilla
 ataymatawas,ataymat̓áwas,"store, village, town, city, trading post",Sahaptian-127,0,1,1,1,/objects/audio/Sahaptian-127.mp3,umatilla
-axsaxs,áx̣šax̣š,"dentalium or tusk shell, scientific name: *Dentalium pretiosum*",Sahaptian-155,0,1,0,0,,umatilla
+axsaxs,áx̣šax̣š,"dentalium or tusk shell, scientific name: *Dentalium pretiosum*",Sahaptian-155,0,1,0,0,/objects/audio/Sahaptian-155.mp3,umatilla
 calamat,čalámat,"pipe, ceremonial pipe",Sahaptian-130,0,1,1,0,/objects/audio/Sahaptian-130.mp3,umatilla
 cuus,čúuš,water; all [káˀuyit](#kauyit) meals begin and end with a drink of this,Sahaptian-042,1,1,0,1,/objects/audio/Sahaptian-042.mp3,umatilla
 iciskiin,ičiškíin,"""in this language..."" or ""in the Indian language..."" can also be directly translate as ""Sahaptian""",Sahaptian-068,0,0,0,0,/objects/audio/Sahaptian-068.mp3,umatilla
@@ -12,9 +12,9 @@ imatalamlama,ímatalamłáma,"Umatilla People, people of the Umatilla River",Sa
 iyawa,íyawa,to herd or drive (horses or cattle),Sahaptian-103,0,0,0,0,/objects/audio/Sahaptian-103.mp3,umatilla
 kauyi,káˀuyi,"to eat first foods, to feast",Sahaptian-089,0,1,0,1,/objects/audio/Sahaptian-089.mp3,umatilla
 kauyit,káˀuyit,first foods feast,Sahaptian-090,0,1,0,1,/objects/audio/Sahaptian-090.mp3,umatilla
-kpit,k̓pɨ́t,bead,,0,1,0,0,,umatilla
-kpitki-ianisa,k̓pɨ́tki iˀáníša,she is doing beadwork,,0,1,0,0,,umatilla
-kpitna,k̓pɨ́tna,beads,,0,1,0,0,,umatilla
+kpit,k̓pɨ́t,bead,Sahaptian-159,0,1,0,0,/objects/audio/Sahaptian-159.mp3,umatilla
+kpitki-ianisa,k̓pɨ́tki iˀáníša,she is doing beadwork,Sahaptian-161,0,1,0,0,/objects/audio/Sahaptian-161.mp3,umatilla
+kpitna,k̓pɨ́tna,beads,Sahaptian-160,0,1,0,0,/objects/audio/Sahaptian-160.mp3,umatilla
 kusi,k̓úsi,horse,Sahaptian-096,1,1,1,1,/objects/audio/Sahaptian-096.mp3,umatilla
 lamitu,lamitú,domestic sheep; also [šíip](#siip) ,Sahaptian-100,0,0,0,1,/objects/audio/Sahaptian-100.mp3,umatilla
 lawaalaytla,lawaalaytłá,"volcano, like Mount Mazama",Sahaptian-013,1,0,0,0,/objects/audio/Sahaptian-013.mp3,umatilla
@@ -37,7 +37,7 @@ pawanaqit,páwanaq̓it,treaty between nations; see also [páˀiniix̣ʷat](#pain
 pawiyalixssimit,páwiyalɨxssimit,"gathering as one, a coming together",Sahaptian-152,0,0,0,1,/objects/audio/Sahaptian-152.mp3,umatilla
 pawiyalixssimwit,pawiyalɨxssímwit,treaty between nations; also [páwanaq̓it](#pawanaqit) or [páˀiniix̣ʷat](#painiixwat),Sahaptian-032,1,0,1,1,/objects/audio/Sahaptian-032.mp3,umatilla
 painiixwat,páˀiniix̣ʷat,treaty between nations; also [páwanaq̓it](#pawanaqit) or [pawiyalɨxssímwit](#pawiyalixssimwit),Sahaptian-031,1,0,1,1,/objects/audio/Sahaptian-031.mp3,umatilla
-qalamqalam,qalámqalam,"lodgepole pine, *Pinus contorta*",,0,0,0,0,,umatilla
+qalamqalam,qalámqalam,"lodgepole pine, scientific name: *Pinus contorta*",Sahaptian-165,0,0,0,0,/objects/audio/Sahaptian-165.mp3,umatilla
 qixli,q̓ɨx̣lí,tule mat,Sahaptian-081,0,1,1,0,/objects/audio/Sahaptian-081.mp3,umatilla
 qwsqwis,q̓ʷšq̓ʷɨ́š,coffee,Sahaptian-033,0,1,1,0,/objects/audio/Sahaptian-033.mp3,umatilla
 sapawaakmuyk,šapáwaakmuyk,"to cause a horse to buck, have a rodeo",Sahaptian-106,0,0,0,0,/objects/audio/Sahaptian-106.mp3,umatilla
@@ -46,7 +46,7 @@ sapawaakpawas,sapawaak̓páwas,button,Sahaptian-034,0,1,1,0,/objects/audio/Sahap
 siil,síil,"material, cloth",Sahaptian-132,0,1,1,0,/objects/audio/Sahaptian-132.mp3,umatilla
 siip,šíip,domestic sheep; also [lamitú](#lamitu),Sahaptian-101,0,0,0,1,/objects/audio/Sahaptian-101.mp3,umatilla
 siipmi-lawlaw,šiipmí lawláw,wool,Sahaptian-102,0,0,0,0,/objects/audio/Sahaptian-102.mp3,umatilla
-siwaala,siwáala,freshwater clam or mussel; also [x̣ɨštú](#xistu-2) or [xɨstú](#xistu) ,,0,1,0,0,,umatilla
+siwaala,siwáala,freshwater clam or mussel; also [x̣ɨštú](#xistu-2) or [xɨstú](#xistu),Sahaptian-156,0,1,0,0,/objects/audio/Sahaptian-156.mp3,umatilla
 sinwit,sɨ́nwit,"speaking, talking, words, language ",Sahaptian-024,1,1,1,1,/objects/audio/Sahaptian-024.mp3,umatilla
 spaytit,spáytit,"sprout, shoot, offspring, or child",Sahaptian-077,0,0,0,0,/objects/audio/Sahaptian-077.mp3,umatilla
 sukwa,šúkʷa,"know, learn",Sahaptian-010,1,0,0,0,/objects/audio/Sahaptian-010.mp3,umatilla
@@ -73,12 +73,12 @@ timani-tiicam,tímani tiičám,"Indian reservation, place reserved for indigenou
 tiwi,tíwi,fight,Sahaptian-142,0,0,0,0,/objects/audio/Sahaptian-142.mp3,umatilla
 tku,tk̓ú,"tule plants, scientific name: *Schoenoplectus acutus*",Sahaptian-026,0,1,0,0,/objects/audio/Sahaptian-026.mp3,umatilla
 tkupa,tk̓úpa,"tule place, place where tules grow",Sahaptian-079,0,1,1,1,/objects/audio/Sahaptian-079.mp3,umatilla
-tkuwi,tk̓úwi,get or gather tules,,0,1,0,0,,umatilla
+tkuwi,tk̓úwi,get or gather tules,Sahaptian-162,0,1,0,0,/objects/audio/Sahaptian-162.mp3,umatilla
 tkwata,tkʷáta,to eat,Sahaptian-086,0,0,1,1,/objects/audio/Sahaptian-086.mp3,umatilla
 tkwatat,tkʷátat,food,Sahaptian-087,0,0,1,1,/objects/audio/Sahaptian-087.mp3,umatilla
 tkwaynp,tkʷáynp,go hunting; also [wɨsaláyti](#wisalayti),Sahaptian-112,0,0,0,0,/objects/audio/Sahaptian-112.mp3,umatilla
 tkwaynpla,tkʷaynpłá,"hunter, man",Sahaptian-111,0,0,0,0,/objects/audio/Sahaptian-111.mp3,umatilla
-tmaanit,tmaanít,"picked plant foods, plant foods gathered/harvested by picking",,0,1,0,1,,umatilla
+tmaanit,tmaanít,"picked plant foods, plant foods gathered/harvested by picking",Sahaptian-164,0,1,0,1,/objects/audio/Sahaptian-164.mp3,umatilla
 tmayn,tmáyn,"respect, show respect",Sahaptian-009,1,0,0,0,/objects/audio/Sahaptian-009.mp3,umatilla
 tmitkin,tmítk̓in,"visualize, imagine, think of something from the past",Sahaptian-006,1,0,0,0,/objects/audio/Sahaptian-006.mp3,umatilla
 tmiyutpama-niit,tmiyutpamá níit,"Indian Agency; literally translates as, “building at place of planning, deciding, plan, decision, suggestion”",Sahaptian-125,0,0,1,0,/objects/audio/Sahaptian-125.mp3,umatilla
@@ -100,9 +100,9 @@ wiyanaykuk,wiyánayk̓uk,"gather foods, medicines, and materials **along the way
 wisalayti,wɨsaláyti,go hunting; also [tkʷáynp](#tkwaynp),Sahaptian-114,0,0,0,0,/objects/audio/Sahaptian-114.mp3,umatilla
 wisayctpama,wɨšayčtpamá,"village, place to stay",Sahaptian-082,0,1,1,0,/objects/audio/Sahaptian-082.mp3,umatilla
 xaws,x̣áwš,cous root; represents all [x̣nít](#xnit) at the table for [káˀuyit](#kauyit),Sahaptian-094,0,1,0,1,/objects/audio/Sahaptian-094.mp3,umatilla
-xistu,xɨstú,freshwater clam or mussel; also [x̣ɨštú](#xistu-2) or [siwáala](#siwaala),,0,1,0,0,,umatilla
-xistu-2,x̣ɨštú,freshwater clam or mussel; also [xɨstú](#xistu) or [siwáala](#siwaala),,0,1,0,0,,umatilla
-xnit,x̣nít,"dug plant foods, plant foods gathered/harvested by digging",,0,1,0,1,,umatilla
+xistu,xɨstú,freshwater clam or mussel; also [x̣ɨštú](#xistu-2) or [siwáala](#siwaala),Sahaptian-158,0,1,0,0,/objects/audio/Sahaptian-158.mp3,umatilla
+xistu-2,x̣ɨštú,freshwater clam or mussel; also [xɨstú](#xistu) or [siwáala](#siwaala),Sahaptian-157,0,1,0,0,/objects/audio/Sahaptian-157.mp3,umatilla
+xnit,x̣nít,"dug plant foods, plant foods gathered/harvested by digging",Sahaptian-163,0,1,0,1,/objects/audio/Sahaptian-163.mp3,umatilla
 xpxip,x̣px̣ɨ́p,cottonwood tree,Sahaptian-108,0,0,1,0,/objects/audio/Sahaptian-108.mp3,umatilla
 yaamas,yáamaš,deer; represents all big game at the table for [káˀuyit](#kauyit),Sahaptian-057,0,1,0,1,/objects/audio/Sahaptian-057.mp3,umatilla
 yamuxlayk,yámuxlayk,"flood out, demolish by flood",Sahaptian-058,1,0,0,1,/objects/audio/Sahaptian-058.mp3,umatilla
