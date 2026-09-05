@@ -1,10 +1,10 @@
 id,word,definition,identifier,lesson_1,lesson_2,lesson_3,lesson_4,audio,glossary_list
 atayma,atáyma,"barter, sell",Sahaptian-018,1,1,1,0,/objects/audio/Sahaptian-018.mp3,umatilla
 ataymatawas,ataymat̓áwas,"store, village, town, city, trading post",Sahaptian-127,0,1,1,1,/objects/audio/Sahaptian-127.mp3,umatilla
-axsaxs,áx̣šax̣š,"dentalium or tusk shell, *Dentalium pretiosum*",,0,1,0,0,,umatilla
+axsaxs,áx̣šax̣š,"dentalium or tusk shell, *Dentalium pretiosum*",Sahaptian-155,0,1,0,0,,umatilla
 calamat,čalámat,"pipe, ceremonial pipe",Sahaptian-130,0,1,1,0,/objects/audio/Sahaptian-130.mp3,umatilla
 cuus,čúuš,water; all [káˀuyit](#kauyit) meals begin and end with a drink of this,Sahaptian-042,1,1,0,1,/objects/audio/Sahaptian-042.mp3,umatilla
-iciskiin,ičiškíin,"""in this language..."" or ""in the Indian language...""",Sahaptian-068,0,0,0,0,/objects/audio/Sahaptian-068.mp3,umatilla
+iciskiin,ičiškíin,"""in this language..."" or ""in the Indian language..."" also can be directly translated to "Sahaptian"",Sahaptian-068,0,0,0,0,/objects/audio/Sahaptian-068.mp3,umatilla
 imatalam,ímatalam,"the place at the mouth of [ímatalam wana](#imatalam-wana) or the Umatilla River, a permanent camp now a city called Umatilla",Sahaptian-060,0,0,0,0,/objects/audio/Sahaptian-060.mp3,umatilla
 imatalam-wana,ímatalam wana,"Umatilla River, literally translates as “rocky river”",Sahaptian-020,0,1,0,1,/objects/audio/Sahaptian-020.mp3,umatilla
 imatalamlaami-sinwit,imatalamłaamí sɨ́nwit,Umatilla language,Sahaptian-067,0,0,0,0,/objects/audio/Sahaptian-067.mp3,umatilla
@@ -13,7 +13,7 @@ iyawa,íyawa,to herd or drive (horses or cattle),Sahaptian-103,0,0,0,0,/objects/
 kauyi,káˀuyi,"to eat first foods, to feast",Sahaptian-089,0,1,0,1,/objects/audio/Sahaptian-089.mp3,umatilla
 kauyit,káˀuyit,first foods feast,Sahaptian-090,0,1,0,1,/objects/audio/Sahaptian-090.mp3,umatilla
 kpit,k̓pɨ́t,bead,,0,1,0,0,,umatilla
-kpitki-anisa,k̓pɨ́tki aníša,she is doing beadwork,,0,1,0,0,,umatilla
+kpitkii-anisa,k̓pɨ́tkiiˀáníša,she is doing beadwork,,0,1,0,0,,umatilla
 kpitna,k̓pɨ́tna,beads,,0,1,0,0,,umatilla
 kusi,k̓úsi,horse,Sahaptian-096,1,1,1,1,/objects/audio/Sahaptian-096.mp3,umatilla
 lamitu,lamitú,domestic sheep; also [šíip](#siip) ,Sahaptian-100,0,0,0,1,/objects/audio/Sahaptian-100.mp3,umatilla
