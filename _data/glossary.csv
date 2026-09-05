@@ -1,7 +1,7 @@
 id,word,definition,identifier,lesson_1,lesson_2,lesson_3,lesson_4,audio,glossary_list
 atayma,atáyma,"barter, sell",Sahaptian-018,1,1,1,0,/objects/audio/Sahaptian-018.mp3,umatilla
 ataymatawas,ataymat̓áwas,"store, village, town, city, trading post",Sahaptian-127,0,1,1,1,/objects/audio/Sahaptian-127.mp3,umatilla
-axsaxs,áx̣šax̣š,"dentalium or tusk shell, *Dentalium pretiosum*",Sahaptian-155,0,1,0,0,,umatilla
+axsaxs,áx̣šax̣š,"dentalium or tusk shell, scientific name: *Dentalium pretiosum*",Sahaptian-155,0,1,0,0,,umatilla
 calamat,čalámat,"pipe, ceremonial pipe",Sahaptian-130,0,1,1,0,/objects/audio/Sahaptian-130.mp3,umatilla
 cuus,čúuš,water; all [káˀuyit](#kauyit) meals begin and end with a drink of this,Sahaptian-042,1,1,0,1,/objects/audio/Sahaptian-042.mp3,umatilla
 iciskiin,ičiškíin,"""in this language..."" or ""in the Indian language..."" also can be directly translated to "Sahaptian"",Sahaptian-068,0,0,0,0,/objects/audio/Sahaptian-068.mp3,umatilla
@@ -71,7 +71,7 @@ tawyanikawas,tawyanikáwas,"village, camp, dwelling; also [táwyanaykt](#tawyana
 tiicam,tiičám,"earth, ground, property, place",Sahaptian-123,1,0,0,1,/objects/audio/Sahaptian-123.mp3,umatilla
 timani-tiicam,tímani tiičám,"Indian reservation, place reserved for indigenous descendants by the ancestors who negotiated the treaty with the United States Government",Sahaptian-054,0,0,1,1,/objects/audio/Sahaptian-054.mp3,umatilla
 tiwi,tíwi,fight,Sahaptian-142,0,0,0,0,/objects/audio/Sahaptian-142.mp3,umatilla
-tku,tk̓ú,"tule plants, *Schoenoplectus acutus*",Sahaptian-026,0,1,0,0,/objects/audio/Sahaptian-026.mp3,umatilla
+tku,tk̓ú,"tule plants, scientific name: *Schoenoplectus acutus*",Sahaptian-026,0,1,0,0,/objects/audio/Sahaptian-026.mp3,umatilla
 tkupa,tk̓úpa,"tule place, place where tules grow",Sahaptian-079,0,1,1,1,/objects/audio/Sahaptian-079.mp3,umatilla
 tkuwi,tk̓úwi,get or gather tules,,0,1,0,0,,umatilla
 tkwata,tkʷáta,to eat,Sahaptian-086,0,0,1,1,/objects/audio/Sahaptian-086.mp3,umatilla
